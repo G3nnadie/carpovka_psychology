@@ -1,0 +1,1842 @@
+<!DOCTYPE html>
+<!-- saved from url=(0021)https://karpovka.org/ -->
+<html lang="ru-RU" style="--vh: 919px;">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+  <!--FONTS & STYLES -->
+  <style>
+    @font-face {
+      font-family: 'PF BeauSans Pro';
+      src: url("https://karpovka.org/wp-content/themes/karpovka/assets/fonts/PFBeauSansPro-BoldItalic.eot");
+      src: local('PFBeauSansPro-BoldItalic'), url("https://karpovka.org/wp-content/themes/karpovka/assets/fonts/PFBeauSansPro-BoldItalic.eot?#iefix") format('embedded-opentype'), url("https://karpovka.org/wp-content/themes/karpovka/assets/fonts/PFBeauSansPro-BoldItalic.woff2") format('woff2'), url("https://karpovka.org/wp-content/themes/karpovka/assets/fonts/PFBeauSansPro-BoldItalic.woff") format('woff'), url("https://karpovka.org/wp-content/themes/karpovka/assets/fonts/PFBeauSansPro-BoldItalic.ttf") format('truetype');
+      font-weight: bold;
+      font-style: italic;
+      font-display: swap;
+    }
+    
+    @font-face {
+      font-family: 'PF BeauSans Pro';
+      src: url("https://karpovka.org/wp-content/themes/karpovka/assets/fonts/PFBeauSansPro-SemiBold.eot");
+      src: local('PFBeauSansPro-SemiBold'), url("https://karpovka.org/wp-content/themes/karpovka/assets/fonts/PFBeauSansPro-SemiBold.eot?#iefix") format('embedded-opentype'), url("https://karpovka.org/wp-content/themes/karpovka/assets/fonts/PFBeauSansPro-SemiBold.woff2") format('woff2'), url("https://karpovka.org/wp-content/themes/karpovka/assets/fonts/PFBeauSansPro-SemiBold.woff") format('woff'), url("https://karpovka.org/wp-content/themes/karpovka/assets/fonts/PFBeauSansPro-SemiBold.ttf") format('truetype');
+      font-weight: 600;
+      font-style: normal;
+      font-display: swap;
+    }
+    
+    @font-face {
+      font-family: 'PF BeauSans Pro';
+      src: url("https://karpovka.org/wp-content/themes/karpovka/assets/fonts/PFBeauSansPro-Bold.eot");
+      src: local('PFBeauSansPro-Bold'), url("https://karpovka.org/wp-content/themes/karpovka/assets/fonts/PFBeauSansPro-Bold.eot?#iefix") format('embedded-opentype'), url("https://karpovka.org/wp-content/themes/karpovka/assets/fonts/PFBeauSansPro-Bold.woff2") format('woff2'), url("https://karpovka.org/wp-content/themes/karpovka/assets/fonts/PFBeauSansPro-Bold.woff") format('woff'), url("https://karpovka.org/wp-content/themes/karpovka/assets/fonts/PFBeauSansPro-Bold.ttf") format('truetype');
+      font-weight: bold;
+      font-style: normal;
+      font-display: swap;
+    }
+    
+    @font-face {
+      font-family: 'PF BeauSans Pro';
+      src: url("https://karpovka.org/wp-content/themes/karpovka/assets/fonts/PFBeauSansPro-Italic.eot");
+      src: local('PFBeauSansPro-Italic'), url("https://karpovka.org/wp-content/themes/karpovka/assets/fonts/PFBeauSansPro-Italic.eot?#iefix") format('embedded-opentype'), url("https://karpovka.org/wp-content/themes/karpovka/assets/fonts/PFBeauSansPro-Italic.woff2") format('woff2'), url("https://karpovka.org/wp-content/themes/karpovka/assets/fonts/PFBeauSansPro-Italic.woff") format('woff'), url("https://karpovka.org/wp-content/themes/karpovka/assets/fonts/PFBeauSansPro-Italic.ttf") format('truetype');
+      font-weight: normal;
+      font-style: italic;
+      font-display: swap;
+    }
+    
+    @font-face {
+      font-family: 'PF BeauSans Pro';
+      src: url("https://karpovka.org/wp-content/themes/karpovka/assets/fonts/PFBeauSansPro-Regular.eot");
+      src: local('PFBeauSansPro-Regular'), url("https://karpovka.org/wp-content/themes/karpovka/assets/fonts/PFBeauSansPro-Regular.eot?#iefix") format('embedded-opentype'), url("https://karpovka.org/wp-content/themes/karpovka/assets/fonts/PFBeauSansPro-Regular.woff2") format('woff2'), url("https://karpovka.org/wp-content/themes/karpovka/assets/fonts/PFBeauSansPro-Regular.woff") format('woff'), url("https://karpovka.org/wp-content/themes/karpovka/assets/fonts/PFBeauSansPro-Regular.ttf") format('truetype');
+      font-weight: normal;
+      font-style: normal;
+      font-display: swap;
+    }
+    /* montserrat-regular - cyrillic_latin */
+    
+    @font-face {
+      font-display: swap;
+      /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 400;
+      src: url('https://karpovka.org/wp-content/themes/karpovka/assets/fonts/montserrat-v26-cyrillic_latin-regular.woff2') format('woff2');
+      /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    }
+    /* montserrat-500 - cyrillic_latin */
+    
+    @font-face {
+      font-display: swap;
+      /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 500;
+      src: url('https://karpovka.org/wp-content/themes/karpovka/assets/fonts/montserrat-v26-cyrillic_latin-500.woff2') format('woff2');
+      /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    }
+    /* montserrat-600 - cyrillic_latin */
+    
+    @font-face {
+      font-display: swap;
+      /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 600;
+      src: url('https://karpovka.org/wp-content/themes/karpovka/assets/fonts/montserrat-v26-cyrillic_latin-600.woff2') format('woff2');
+      /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    }
+    /* montserrat-700 - cyrillic_latin */
+    
+    @font-face {
+      font-display: swap;
+      /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 700;
+      src: url('https://karpovka.org/wp-content/themes/karpovka/assets/fonts/montserrat-v26-cyrillic_latin-700.woff2') format('woff2');
+      /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    }
+    /* montserrat-800 - cyrillic_latin */
+    
+    @font-face {
+      font-display: swap;
+      /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 800;
+      src: url('https://karpovka.org/wp-content/themes/karpovka/assets/fonts/montserrat-v26-cyrillic_latin-800.woff2') format('woff2');
+      /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    }
+  </style>
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+  <style>
+    img:is([sizes="auto" i], [sizes^="auto," i]) {
+      contain-intrinsic-size: 3000px 1500px
+    }
+  </style>
+
+  <!-- This site is optimized with the Yoast SEO Premium plugin v23.5 (Yoast SEO v23.5) - https://yoast.com/wordpress/plugins/seo/ -->
+  <title>Научно-Клинический Центр Карповка</title>
+  <link rel="stylesheet" href="./Научно-Клинический Центр Карповка_files/e3d5b65512f3d5990ce198d093941d18.css" media="all" data-minify="1">
+  <meta name="description" content="В нашей клинике ведут прием специалисты Санкт-Петербурга: психиатры, неврологи, психотерапевты, психологи, сексологи, психосоматологи.">
+  <link rel="canonical" href="https://karpovka.org/">
+  <meta property="og:locale" content="ru_RU">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Главная">
+  <meta property="og:description" content="Главная НКЦ Карповка |">
+  <meta property="og:url" content="https://karpovka.org/">
+  <meta property="og:site_name" content="НКЦ Карповка">
+  <meta property="article:modified_time" content="2024-07-08T21:51:06+00:00">
+  <meta property="og:image" content="https://karpovka.org/wp-content/uploads/2023/04/about_img-1.jpg.webp">
+  <meta property="og:image:width" content="1100">
+  <meta property="og:image:height" content="733">
+  <meta property="og:image:type" content="image/jpeg">
+  <script charset="UTF-8" async="" src="./Научно-Клинический Центр Карповка_files/init"></script>
+  <script type="text/javascript" async="" id="tmr-code" src="./Научно-Клинический Центр Карповка_files/code.js.Без названия"></script>
+  <script async="" src="./Научно-Клинический Центр Карповка_files/tag.js.Без названия"></script>
+  <script type="application/ld+json" class="yoast-schema-graph">
+    {
+      "@context": "https://schema.org",
+      "@graph": [{
+        "@type": "WebPage",
+        "@id": "https://karpovka.org/",
+        "url": "https://karpovka.org/",
+        "name": "Научно-Клинический Центр Карповка",
+        "isPartOf": {
+          "@id": "https://karpovka.org/#website"
+        },
+        "about": {
+          "@id": "https://karpovka.org/#organization"
+        },
+        "datePublished": "2023-04-08T07:25:52+00:00",
+        "dateModified": "2024-07-08T21:51:06+00:00",
+        "description": "В нашей клинике ведут прием специалисты Санкт-Петербурга: психиатры, неврологи, психотерапевты, психологи, сексологи, психосоматологи.",
+        "breadcrumb": {
+          "@id": "https://karpovka.org/#breadcrumb"
+        },
+        "inLanguage": "ru-RU",
+        "potentialAction": [{
+          "@type": "ReadAction",
+          "target": ["https://karpovka.org/"]
+        }]
+      }, {
+        "@type": "BreadcrumbList",
+        "@id": "https://karpovka.org/#breadcrumb",
+        "itemListElement": [{
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Главная страница"
+        }]
+      }, {
+        "@type": "WebSite",
+        "@id": "https://karpovka.org/#website",
+        "url": "https://karpovka.org/",
+        "name": "НКЦ Карповка",
+        "description": "",
+        "publisher": {
+          "@id": "https://karpovka.org/#organization"
+        },
+        "potentialAction": [{
+          "@type": "SearchAction",
+          "target": {
+            "@type": "EntryPoint",
+            "urlTemplate": "https://karpovka.org/?s={search_term_string}"
+          },
+          "query-input": {
+            "@type": "PropertyValueSpecification",
+            "valueRequired": true,
+            "valueName": "search_term_string"
+          }
+        }],
+        "inLanguage": "ru-RU"
+      }, {
+        "@type": "Organization",
+        "@id": "https://karpovka.org/#organization",
+        "name": "Научно-Клинический Центр Карповка",
+        "alternateName": "НКЦ Карповка",
+        "url": "https://karpovka.org/",
+        "logo": {
+          "@type": "ImageObject",
+          "inLanguage": "ru-RU",
+          "@id": "https://karpovka.org/#/schema/logo/image/",
+          "url": "https://karpovka.org/wp-content/uploads/2023/06/karpovka-logo-quadro.jpg",
+          "contentUrl": "https://karpovka.org/wp-content/uploads/2023/06/karpovka-logo-quadro.jpg",
+          "width": 640,
+          "height": 640,
+          "caption": "Научно-Клинический Центр Карповка"
+        },
+        "image": {
+          "@id": "https://karpovka.org/#/schema/logo/image/"
+        },
+        "sameAs": ["https://vk.com/psychotherapycenter"]
+      }]
+    }
+  </script>
+  <!-- / Yoast SEO Premium plugin. -->
+
+  <link rel="dns-prefetch" href="https://use.fontawesome.com/">
+  <link href="https://fonts.gstatic.com/" crossorigin="" rel="preconnect">
+
+  <style id="classic-theme-styles-inline-css" type="text/css">
+    /*! This file is auto-generated */
+    
+    .wp-block-button__link {
+      color: #fff;
+      background-color: #32373c;
+      border-radius: 9999px;
+      box-shadow: none;
+      text-decoration: none;
+      padding: calc(.667em + 2px) calc(1.333em + 2px);
+      font-size: 1.125em
+    }
+    
+    .wp-block-file__button {
+      background: #32373c;
+      color: #fff;
+      text-decoration: none
+    }
+  </style>
+  <style id="global-styles-inline-css" type="text/css">
+    :root {
+      --wp--preset--aspect-ratio--square: 1;
+      --wp--preset--aspect-ratio--4-3: 4/3;
+      --wp--preset--aspect-ratio--3-4: 3/4;
+      --wp--preset--aspect-ratio--3-2: 3/2;
+      --wp--preset--aspect-ratio--2-3: 2/3;
+      --wp--preset--aspect-ratio--16-9: 16/9;
+      --wp--preset--aspect-ratio--9-16: 9/16;
+      --wp--preset--color--black: #000000;
+      --wp--preset--color--cyan-bluish-gray: #abb8c3;
+      --wp--preset--color--white: #ffffff;
+      --wp--preset--color--pale-pink: #f78da7;
+      --wp--preset--color--vivid-red: #cf2e2e;
+      --wp--preset--color--luminous-vivid-orange: #ff6900;
+      --wp--preset--color--luminous-vivid-amber: #fcb900;
+      --wp--preset--color--light-green-cyan: #7bdcb5;
+      --wp--preset--color--vivid-green-cyan: #00d084;
+      --wp--preset--color--pale-cyan-blue: #8ed1fc;
+      --wp--preset--color--vivid-cyan-blue: #0693e3;
+      --wp--preset--color--vivid-purple: #9b51e0;
+      --wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg, rgba(6, 147, 227, 1) 0%, rgb(155, 81, 224) 100%);
+      --wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg, rgb(122, 220, 180) 0%, rgb(0, 208, 130) 100%);
+      --wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg, rgba(252, 185, 0, 1) 0%, rgba(255, 105, 0, 1) 100%);
+      --wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg, rgba(255, 105, 0, 1) 0%, rgb(207, 46, 46) 100%);
+      --wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg, rgb(238, 238, 238) 0%, rgb(169, 184, 195) 100%);
+      --wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg, rgb(74, 234, 220) 0%, rgb(151, 120, 209) 20%, rgb(207, 42, 186) 40%, rgb(238, 44, 130) 60%, rgb(251, 105, 98) 80%, rgb(254, 248, 76) 100%);
+      --wp--preset--gradient--blush-light-purple: linear-gradient(135deg, rgb(255, 206, 236) 0%, rgb(152, 150, 240) 100%);
+      --wp--preset--gradient--blush-bordeaux: linear-gradient(135deg, rgb(254, 205, 165) 0%, rgb(254, 45, 45) 50%, rgb(107, 0, 62) 100%);
+      --wp--preset--gradient--luminous-dusk: linear-gradient(135deg, rgb(255, 203, 112) 0%, rgb(199, 81, 192) 50%, rgb(65, 88, 208) 100%);
+      --wp--preset--gradient--pale-ocean: linear-gradient(135deg, rgb(255, 245, 203) 0%, rgb(182, 227, 212) 50%, rgb(51, 167, 181) 100%);
+      --wp--preset--gradient--electric-grass: linear-gradient(135deg, rgb(202, 248, 128) 0%, rgb(113, 206, 126) 100%);
+      --wp--preset--gradient--midnight: linear-gradient(135deg, rgb(2, 3, 129) 0%, rgb(40, 116, 252) 100%);
+      --wp--preset--font-size--small: 13px;
+      --wp--preset--font-size--medium: 20px;
+      --wp--preset--font-size--large: 36px;
+      --wp--preset--font-size--x-large: 42px;
+      --wp--preset--spacing--20: 0.44rem;
+      --wp--preset--spacing--30: 0.67rem;
+      --wp--preset--spacing--40: 1rem;
+      --wp--preset--spacing--50: 1.5rem;
+      --wp--preset--spacing--60: 2.25rem;
+      --wp--preset--spacing--70: 3.38rem;
+      --wp--preset--spacing--80: 5.06rem;
+      --wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);
+      --wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);
+      --wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);
+      --wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);
+      --wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);
+    }
+    
+    :where(.is-layout-flex) {
+      gap: 0.5em;
+    }
+    
+    :where(.is-layout-grid) {
+      gap: 0.5em;
+    }
+    
+    body .is-layout-flex {
+      display: flex;
+    }
+    
+    .is-layout-flex {
+      flex-wrap: wrap;
+      align-items: center;
+    }
+    
+    .is-layout-flex >:is(*, div) {
+      margin: 0;
+    }
+    
+    body .is-layout-grid {
+      display: grid;
+    }
+    
+    .is-layout-grid >:is(*, div) {
+      margin: 0;
+    }
+    
+    :where(.wp-block-columns.is-layout-flex) {
+      gap: 2em;
+    }
+    
+    :where(.wp-block-columns.is-layout-grid) {
+      gap: 2em;
+    }
+    
+    :where(.wp-block-post-template.is-layout-flex) {
+      gap: 1.25em;
+    }
+    
+    :where(.wp-block-post-template.is-layout-grid) {
+      gap: 1.25em;
+    }
+    
+    .has-black-color {
+      color: var(--wp--preset--color--black) !important;
+    }
+    
+    .has-cyan-bluish-gray-color {
+      color: var(--wp--preset--color--cyan-bluish-gray) !important;
+    }
+    
+    .has-white-color {
+      color: var(--wp--preset--color--white) !important;
+    }
+    
+    .has-pale-pink-color {
+      color: var(--wp--preset--color--pale-pink) !important;
+    }
+    
+    .has-vivid-red-color {
+      color: var(--wp--preset--color--vivid-red) !important;
+    }
+    
+    .has-luminous-vivid-orange-color {
+      color: var(--wp--preset--color--luminous-vivid-orange) !important;
+    }
+    
+    .has-luminous-vivid-amber-color {
+      color: var(--wp--preset--color--luminous-vivid-amber) !important;
+    }
+    
+    .has-light-green-cyan-color {
+      color: var(--wp--preset--color--light-green-cyan) !important;
+    }
+    
+    .has-vivid-green-cyan-color {
+      color: var(--wp--preset--color--vivid-green-cyan) !important;
+    }
+    
+    .has-pale-cyan-blue-color {
+      color: var(--wp--preset--color--pale-cyan-blue) !important;
+    }
+    
+    .has-vivid-cyan-blue-color {
+      color: var(--wp--preset--color--vivid-cyan-blue) !important;
+    }
+    
+    .has-vivid-purple-color {
+      color: var(--wp--preset--color--vivid-purple) !important;
+    }
+    
+    .has-black-background-color {
+      background-color: var(--wp--preset--color--black) !important;
+    }
+    
+    .has-cyan-bluish-gray-background-color {
+      background-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+    }
+    
+    .has-white-background-color {
+      background-color: var(--wp--preset--color--white) !important;
+    }
+    
+    .has-pale-pink-background-color {
+      background-color: var(--wp--preset--color--pale-pink) !important;
+    }
+    
+    .has-vivid-red-background-color {
+      background-color: var(--wp--preset--color--vivid-red) !important;
+    }
+    
+    .has-luminous-vivid-orange-background-color {
+      background-color: var(--wp--preset--color--luminous-vivid-orange) !important;
+    }
+    
+    .has-luminous-vivid-amber-background-color {
+      background-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+    }
+    
+    .has-light-green-cyan-background-color {
+      background-color: var(--wp--preset--color--light-green-cyan) !important;
+    }
+    
+    .has-vivid-green-cyan-background-color {
+      background-color: var(--wp--preset--color--vivid-green-cyan) !important;
+    }
+    
+    .has-pale-cyan-blue-background-color {
+      background-color: var(--wp--preset--color--pale-cyan-blue) !important;
+    }
+    
+    .has-vivid-cyan-blue-background-color {
+      background-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+    }
+    
+    .has-vivid-purple-background-color {
+      background-color: var(--wp--preset--color--vivid-purple) !important;
+    }
+    
+    .has-black-border-color {
+      border-color: var(--wp--preset--color--black) !important;
+    }
+    
+    .has-cyan-bluish-gray-border-color {
+      border-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+    }
+    
+    .has-white-border-color {
+      border-color: var(--wp--preset--color--white) !important;
+    }
+    
+    .has-pale-pink-border-color {
+      border-color: var(--wp--preset--color--pale-pink) !important;
+    }
+    
+    .has-vivid-red-border-color {
+      border-color: var(--wp--preset--color--vivid-red) !important;
+    }
+    
+    .has-luminous-vivid-orange-border-color {
+      border-color: var(--wp--preset--color--luminous-vivid-orange) !important;
+    }
+    
+    .has-luminous-vivid-amber-border-color {
+      border-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+    }
+    
+    .has-light-green-cyan-border-color {
+      border-color: var(--wp--preset--color--light-green-cyan) !important;
+    }
+    
+    .has-vivid-green-cyan-border-color {
+      border-color: var(--wp--preset--color--vivid-green-cyan) !important;
+    }
+    
+    .has-pale-cyan-blue-border-color {
+      border-color: var(--wp--preset--color--pale-cyan-blue) !important;
+    }
+    
+    .has-vivid-cyan-blue-border-color {
+      border-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+    }
+    
+    .has-vivid-purple-border-color {
+      border-color: var(--wp--preset--color--vivid-purple) !important;
+    }
+    
+    .has-vivid-cyan-blue-to-vivid-purple-gradient-background {
+      background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;
+    }
+    
+    .has-light-green-cyan-to-vivid-green-cyan-gradient-background {
+      background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;
+    }
+    
+    .has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background {
+      background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;
+    }
+    
+    .has-luminous-vivid-orange-to-vivid-red-gradient-background {
+      background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;
+    }
+    
+    .has-very-light-gray-to-cyan-bluish-gray-gradient-background {
+      background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;
+    }
+    
+    .has-cool-to-warm-spectrum-gradient-background {
+      background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;
+    }
+    
+    .has-blush-light-purple-gradient-background {
+      background: var(--wp--preset--gradient--blush-light-purple) !important;
+    }
+    
+    .has-blush-bordeaux-gradient-background {
+      background: var(--wp--preset--gradient--blush-bordeaux) !important;
+    }
+    
+    .has-luminous-dusk-gradient-background {
+      background: var(--wp--preset--gradient--luminous-dusk) !important;
+    }
+    
+    .has-pale-ocean-gradient-background {
+      background: var(--wp--preset--gradient--pale-ocean) !important;
+    }
+    
+    .has-electric-grass-gradient-background {
+      background: var(--wp--preset--gradient--electric-grass) !important;
+    }
+    
+    .has-midnight-gradient-background {
+      background: var(--wp--preset--gradient--midnight) !important;
+    }
+    
+    .has-small-font-size {
+      font-size: var(--wp--preset--font-size--small) !important;
+    }
+    
+    .has-medium-font-size {
+      font-size: var(--wp--preset--font-size--medium) !important;
+    }
+    
+    .has-large-font-size {
+      font-size: var(--wp--preset--font-size--large) !important;
+    }
+    
+    .has-x-large-font-size {
+      font-size: var(--wp--preset--font-size--x-large) !important;
+    }
+    
+    :where(.wp-block-post-template.is-layout-flex) {
+      gap: 1.25em;
+    }
+    
+    :where(.wp-block-post-template.is-layout-grid) {
+      gap: 1.25em;
+    }
+    
+    :where(.wp-block-columns.is-layout-flex) {
+      gap: 2em;
+    }
+    
+    :where(.wp-block-columns.is-layout-grid) {
+      gap: 2em;
+    }
+    
+    :root:where(.wp-block-pullquote) {
+      font-size: 1.5em;
+      line-height: 1.6;
+    }
+  </style>
+
+  <script type="text/javascript" src="./Научно-Клинический Центр Карповка_files/jquery.min.js" id="jquery-core-js"></script>
+  <script type="text/javascript" src="./Научно-Клинический Центр Карповка_files/jquery-migrate.min.js" id="jquery-migrate-js"></script>
+  <link rel="icon" href="https://karpovka.org/wp-content/uploads/2023/04/cropped-favicon-logo-32x32.png.webp" sizes="32x32">
+  <link rel="icon" href="https://karpovka.org/wp-content/uploads/2023/04/cropped-favicon-logo-192x192.png.webp" sizes="192x192">
+  <link rel="apple-touch-icon" href="https://karpovka.org/wp-content/uploads/2023/04/cropped-favicon-logo-180x180.png.webp">
+  <meta name="msapplication-TileImage" content="https://karpovka.org/wp-content/uploads/2023/04/cropped-favicon-logo-270x270.png.webp">
+  <style type="text/css" id="wp-custom-css">
+    .homeSales .swiper-wrapper {
+      height: 710px;
+    }
+  </style>
+  <noscript>
+    <style id="rocket-lazyload-nojs-css">
+      .rll-youtube-player,
+      [data-lazy-src] {
+        display: none !important;
+      }
+    </style>
+  </noscript>
+  <link href="./Научно-Клинический Центр Карповка_files/css2" rel="stylesheet">
+  <meta name="yandex-verification" content="649c5e39c74d4b28">
+  <meta name="yandex-verification" content="cdbc930dcaef6844">
+
+  <!-- Yandex.Metrika counter -->
+  <script type="text/javascript">
+    (function(m, e, t, r, i, k, a) {
+      m[i] = m[i] || function() {
+        (m[i].a = m[i].a || []).push(arguments)
+      };
+      m[i].l = 1 * new Date();
+      for (var j = 0; j < document.scripts.length; j++) {
+        if (document.scripts[j].src === r) {
+          return;
+        }
+      }
+      k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
+    })
+    (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+    ym(93230623, "init", {
+      clickmap: true,
+      trackLinks: true,
+      accurateTrackBounce: true,
+      webvisor: false
+    });
+  </script>
+  <noscript>
+    <div><img src="https://mc.yandex.ru/watch/93230623" style="position:absolute; left:-9999px;" alt="" /></div>
+  </noscript>
+  <!-- /Yandex.Metrika counter -->
+
+  <style>
+    .mobil_btns {
+      display: none;
+    }
+    
+    .header__btn img {
+      height: 41px;
+      width: 41px;
+    }
+    
+    @media (max-width:820px) {
+      .mobil_btns {
+        position: fixed;
+        display: flex !important;
+        flex-direction: column;
+        right: 0;
+        top: 70px;
+        gap: 18px;
+        z-index: 1000;
+        opacity: 0.82;
+      }
+      .mobil_btns a {
+        padding: 0 12px 0 12px;
+      }
+      .mobil_btns a.header__phone_mobil {
+        display: block;
+        background-color: #6F50AC;
+        padding: 10px 12px 5px 12px;
+        border-radius: 35px 0 0 35px;
+      }
+      .header-inner .header_btn {
+        display: block;
+        padding: 0;
+        width: 125px;
+        height: 25px;
+        position: relative;
+        margin: 0;
+        font-size: 12px;
+        display: flex;
+      }
+      .header-inner .header_btn::after {
+        background: none;
+      }
+    }
+  </style>
+
+  <script type="text/javascript" src="./Научно-Клинический Центр Карповка_files/script"></script>
+
+  <link type="text/css" rel="stylesheet" href="./Научно-Клинический Центр Карповка_files/style.css">
+
+
+
+
+
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Tenor+Sans&display=swap" rel="stylesheet">
+
+
+
+
+
+
+
+  <link rel="stylesheet" type="text/css" href="new.css">
+
+
+
+
+
+
+
+
+</head>
+
+<body class="home page-template-default page page-id-5 offcanvas-init">
+  <button type="button" class="body__btn" data-bs-toggle="modal" data-bs-target="#headerPopupForm">
+    <svg viewBox="0 0 27 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M19.485 21.9141C19.902 22.5991 20.027 23.4041 19.837 24.1831C19.648 24.9611 19.166 25.6201 18.481 26.0371L15.997 27.5491C15.52 27.8391 14.985 27.9851 14.446 27.9851C13.962 27.9851 13.474 27.8681 13.021 27.6321C7.805 24.9271 4.827 20.9101 3.516 18.7571C0.611 13.9851 0.001 9.28309 0 6.18009C0 5.13409 0.538 4.18009 1.44 3.63009L3.925 2.11809C4.609 1.70109 5.414 1.57609 6.194 1.76609C6.972 1.95509 7.631 2.43609 8.047 3.12109L9.607 5.68309C10.467 7.09709 10.017 8.94609 8.604 9.80609L7.317 10.5891C6.931 10.8241 6.743 11.2961 6.872 11.7101C7.297 13.0851 7.893 14.4061 8.642 15.6371C9.389 16.8641 10.288 17.9981 11.312 19.0081C11.629 19.3201 12.124 19.3711 12.517 19.1321L13.803 18.3491C15.214 17.4871 17.065 17.9381 17.926 19.3511L19.486 21.9141H19.485ZM13.569 9.89409C15.749 10.2301 17.248 12.2781 16.912 14.4571C16.828 15.0031 17.202 15.5141 17.748 15.5981C17.8 15.6061 17.851 15.6101 17.902 15.6101C18.387 15.6101 18.813 15.2561 18.889 14.7621C19.393 11.4921 17.144 8.42209 13.875 7.91709C13.33 7.83509 12.818 8.20709 12.734 8.75209C12.65 9.29809 13.024 9.80909 13.569 9.89309V9.89409ZM14.484 3.96409C13.943 3.88009 13.427 4.25409 13.343 4.80009C13.259 5.34509 13.633 5.85609 14.179 5.94109C16.291 6.26709 18.149 7.39609 19.412 9.12009C20.675 10.8441 21.191 12.9561 20.865 15.0681C20.781 15.6131 21.155 16.1241 21.701 16.2091C21.752 16.2171 21.804 16.2211 21.855 16.2211C22.34 16.2211 22.766 15.8671 22.842 15.3731C23.25 12.7331 22.605 10.0931 21.026 7.93809C19.447 5.78309 17.124 4.37209 14.484 3.96409ZM15.094 0.0110946C14.55 -0.0699054 14.037 0.301095 13.953 0.847095C13.869 1.39209 14.243 1.90309 14.789 1.98809C21.328 2.99709 25.827 9.13809 24.818 15.6781C24.734 16.2231 25.108 16.7341 25.654 16.8191C25.705 16.8271 25.757 16.8311 25.808 16.8311C26.293 16.8311 26.719 16.4771 26.795 15.9831C27.973 8.35409 22.724 1.19009 15.094 0.0120947V0.0110946Z" fill="white"></path>
+    </svg>
+  </button>
+  <div class="header-menu__overlay" data-js-header-menu="overlay"></div>
+  
+  <div class="mobil_btns" style="display:none">
+    <a href="tel:88007003483" target="_blank" class="header__btn header__phone_mobil" aria-label="Phone">
+      <img class="image" src="data:image/svg+xml,%3Csvg%20xmlns=&#39;http://www.w3.org/2000/svg&#39;%20viewBox=&#39;0%200%2028%2028&#39;%3E%3C/svg%3E" width="28" height="28" alt="&amp;" aria-hidden="true" style="height: 41px; width: 41px;" data-lazy-src="/wp-content/themes/karpovka/assets/img/ico/phonecall.svg">
+      <noscript><img class="image" src="/wp-content/themes/karpovka/assets/img/ico/phonecall.svg" width="28" height="28" alt="&amp;" aria-hidden="true" style="height: 41px; width: 41px;"></noscript>
+    </a>
+    <a href="https://wa.me/79633057010" target="_blank" class="header__btn header__whatsapp_mobil" aria-label="WhatsApp">
+      <img class="image" src="data:image/svg+xml,%3Csvg%20xmlns=&#39;http://www.w3.org/2000/svg&#39;%20viewBox=&#39;0%200%2028%2028&#39;%3E%3C/svg%3E" width="28" height="28" alt="&amp;" aria-hidden="true" style="height: 41px; width: 41px;" data-lazy-src="/wp-content/themes/karpovka/assets/img/ico/header-whatsapp.svg">
+      <noscript><img class="image" src="/wp-content/themes/karpovka/assets/img/ico/header-whatsapp.svg" width="28" height="28" alt="&amp;" aria-hidden="true" style="height: 41px; width: 41px;"></noscript>
+    </a>
+    <a href="https://t.me/karpovkaplus" target="_blank" class="header__btn header__telegram_mobil" aria-label="Telegram">
+      <img class="image" src="data:image/svg+xml,%3Csvg%20xmlns=&#39;http://www.w3.org/2000/svg&#39;%20viewBox=&#39;0%200%2028%2028&#39;%3E%3C/svg%3E" width="28" height="28" alt="&amp;" aria-hidden="true" style="height: 41px; width: 41px;" data-lazy-src="/wp-content/themes/karpovka/assets/img/ico/header-telegram.svg">
+      <noscript><img class="image" src="/wp-content/themes/karpovka/assets/img/ico/header-telegram.svg" width="28" height="28" alt="&amp;" aria-hidden="true" style="height: 41px; width: 41px;"></noscript>
+    </a>
+  </div>
+  <!-- Modal -->
+  <section class="modal fade" id="headerPopupForm" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="headerPopupFormLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="headerPopupFormLabel">Онлайн запись на прием</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+
+          <div class="wpcf7 js" id="wpcf7-f592-o1" lang="ru-RU" dir="ltr" data-wpcf7-id="592">
+            <div class="screen-reader-response">
+              <p role="status" aria-live="polite" aria-atomic="true"></p>
+              <ul></ul>
+            </div>
+            <form action="https://karpovka.org/#wpcf7-f592-o1" method="post" class="wpcf7-form init" aria-label="Контактная форма" novalidate="novalidate" data-status="init">
+              <div style="display: none;">
+                <input type="hidden" name="_wpcf7" value="592">
+                <input type="hidden" name="_wpcf7_version" value="6.0.1">
+                <input type="hidden" name="_wpcf7_locale" value="ru_RU">
+                <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f592-o1">
+                <input type="hidden" name="_wpcf7_container_post" value="0">
+                <input type="hidden" name="_wpcf7_posted_data_hash" value="">
+              </div>
+              <div class="form">
+                <div class="required"><span class="wpcf7-form-control-wrap" data-name="your-name"><input size="40" maxlength="400" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Ваше имя" value="" type="text" name="your-name"></span></div>
+                <div class="required"><span class="wpcf7-form-control-wrap" data-name="tel-118"><input size="40" maxlength="400" class="wpcf7-form-control wpcf7-tel wpcf7-validates-as-required wpcf7-text wpcf7-validates-as-tel" aria-required="true" aria-invalid="false" placeholder="Ваш телефон" value="" type="tel" name="tel-118"></span></div>
+                <input class="wpcf7-form-control wpcf7-hidden" value="" type="hidden" name="servicename">
+                <input class="wpcf7-form-control wpcf7-submit has-spinner" type="submit" value="Отправить"><span class="wpcf7-spinner"></span>
+                <p class="font-size--xs tac"><span class="accept_policy font-size--xs">Нажимая кнопку, Вы разрешаете обработку персональных данных и соглашаешься с политикой конфиденциальности.</span></p>
+              </div>
+              <div class="wpcf7-response-output" aria-hidden="true"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+
+
+  <!-- Wrapper -->
+
+  <div class="q-wrapper">
+
+    <!-- Header -->
+
+    <div class="q-header">
+      <div class="container q-header__body d-flex flex-wrap align-items-center justify-content-between">
+        <a href="#" class="q-logo order-md-2 d-flex"><img src="img/q-logo.svg" alt="Logo"></a>
+        <div class="q-relations order-md-1 d-none d-md-block">
+          <p class="q-relations__tel mb-0"><a href="tel:89200939494">8 920 093 94 94</a></p>
+          <p class="q-relations__address mb-0">г. Санкт-Петербург, наб. Мартынова, 4</p>
+        </div>
+        <div class="q-panel order-md-3 d-flex align-items-center justify-content-end">
+          <div class="q-social d-none d-md-flex">
+            <a href="#" class="q-social__item" style="background: url('img/q-email.svg') center/contain no-repeat;"></a>
+            <a href="#" class="q-social__item" style="background: url('img/q-wt.svg') center/contain no-repeat;"></a>
+            <a href="#" class="q-social__item" style="background: url('img/q-tg.svg') center/contain no-repeat;"></a>
+            <a href="#" class="q-social__item" style="background: url('img/q-vk.svg') center/contain no-repeat;"></a>
+          </div>
+          <a href="#" class="q-btn q-btn--small q-btn--tertiary"><span class="d-none d-md-block">Онлайн-запись</span><span class="d-md-none">Записаться</span></a>
+        </div>
+        <span class="q-toggle q-toggle--nav d-flex d-md-none align-items-center justify-content-center">
+          <i></i>
+          <i></i>
+          <i></i>
+        </span>
+      </div>
+      <nav class="q-nav">
+        <div class="container d-md-flex align-items-center justify-content-between">
+          <ul class="q-nav__list d-md-flex order-md-2">
+            <li class="q-nav__item"><a href="#">Специалисты</a></li>
+            <li class="q-nav__item"><a href="#">Психолог Онлайн</a></li>
+            <li class="q-nav__item"><a href="#">Акции</a></li>
+            <li class="q-nav__item"><a href="#">Цены</a></li>
+            <li class="q-nav__item"><a href="#">Блог</a></li>
+            <li class="q-nav__item"><a href="#">Контакты</a></li>
+          </ul>
+          <div class="q-drop order-md-1">
+            <span class="q-drop__open d-none d-md-flex align-items-center">
+              <span class="q-toggle d-flex align-items-center justify-content-center">
+                <i></i>
+                <i></i>
+                <i></i>
+              </span>
+              Виды помощи
+              <svg viewBox="0 0 12 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M5.78411 6.37073L1.09989 1.71053C0.883695 1.47032 0.883695 1.10999 1.09989 0.893799L1.65239 0.341302C1.86858 0.125107 2.22891 0.125107 2.46912 0.341302L6.19247 4.04063L9.8918 0.341302C10.132 0.125107 10.4923 0.125107 10.7085 0.341302L11.261 0.893799C11.4772 1.10999 11.4772 1.47032 11.261 1.71053L6.57682 6.37073C6.36063 6.58692 6.0003 6.58692 5.78411 6.37073Z"/>
+              </svg>
+            </span>
+            <div class="q-drop__box">
+              <ul class="q-drop__list">
+                <li class="q-drop__item"><a href="#">Психология</a></li>
+                <li class="q-drop__item"><a href="#">Психотерапия</a></li>
+                <li class="q-drop__item"><a href="#">Сексолог</a></li>
+                <li class="q-drop__item"><a href="#">Судебные и внесудебные экспертизы</a></li>
+                <li class="q-drop__item"><a href="#">Соматическое и Психосоматическое отделение</a></li>
+                <li class="q-drop__item"><a href="#">Капельницы (IV-терапия)</a></li>
+                <li class="q-drop__item"><a href="#">Призывникам, лицам, находящимся в запасе, ветеранам боевых действий</a></li>
+                <li class="q-drop__item"><a href="#">Комиссии</a></li>
+                <li class="q-drop__item"><a href="#">Психиатрия</a></li>
+                <li class="q-drop__item"><a href="#">Групповая психотерапия</a></li>
+                <li class="q-drop__item"><a href="#">Лечение неврозов</a></li>
+                <li class="q-drop__item"><a href="#">Образование специалистов</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="q-search d-none d-md-block order-md-3">
+            <span class="q-search__open d-flex align-items-center justify-content-center">
+              <svg viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M16.1938 14.6912L12.1966 10.7523C13.2215 9.57061 13.8365 8.19199 13.8365 6.61643C13.8365 3.0714 10.7617 0.215683 6.96947 0.215683C3.07477 0.314156 0 3.16987 0 6.7149C0 10.2599 3.07477 13.1156 6.86698 13.1156C8.30187 13.1156 9.63427 12.7217 10.7617 11.934L14.8614 15.8729C15.0664 16.0698 15.2713 16.1683 15.4763 16.1683C15.6813 16.1683 15.8863 16.0698 16.0913 15.9714C16.5013 15.479 16.5013 14.9866 16.1938 14.6912ZM6.86698 1.9882C9.63427 1.9882 11.8891 4.05613 11.8891 6.7149C11.8891 9.2752 9.63427 11.4416 6.86698 11.4416C4.09969 11.4416 1.84486 9.37367 1.84486 6.7149C1.74237 4.05613 4.09969 1.9882 6.86698 1.9882Z" fill="white"/>
+              </svg>
+            </span>
+            <form action="#" class="q-form q-search__form">
+              <label class="q-form__field mt-0"><input type="text" placeholder="Поиск..."></label>
+              <button class="q-search__btn d-flex align-items-center justify-content-center">
+                <svg viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M16.1938 14.6912L12.1966 10.7523C13.2215 9.57061 13.8365 8.19199 13.8365 6.61643C13.8365 3.0714 10.7617 0.215683 6.96947 0.215683C3.07477 0.314156 0 3.16987 0 6.7149C0 10.2599 3.07477 13.1156 6.86698 13.1156C8.30187 13.1156 9.63427 12.7217 10.7617 11.934L14.8614 15.8729C15.0664 16.0698 15.2713 16.1683 15.4763 16.1683C15.6813 16.1683 15.8863 16.0698 16.0913 15.9714C16.5013 15.479 16.5013 14.9866 16.1938 14.6912ZM6.86698 1.9882C9.63427 1.9882 11.8891 4.05613 11.8891 6.7149C11.8891 9.2752 9.63427 11.4416 6.86698 11.4416C4.09969 11.4416 1.84486 9.37367 1.84486 6.7149C1.74237 4.05613 4.09969 1.9882 6.86698 1.9882Z" fill="#8F72C6"/>
+                </svg>
+              </button>
+            </form>  
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <!-- Hero -->
+
+    <div class="t-hero">
+      <div class="t-hero__bg" style="background: url('img/t-hero.png') 100% 100%/cover no-repeat;">
+        <div class="container">
+          <img src="img/t-hero-girl.png" alt="Img">
+        </div>
+      </div>
+      <div class="container t-hero__body">
+        <div class="t-hero__box d-md-flex flex-md-column">
+          <p id="breadcrumbs" class="w-breadcrumbs order-md-1">
+            <span>
+              <span><a href="https://karpovka.org/">Главная</a></span>
+              <span class="breadcrumb_last" aria-current="page">Психология</span>
+            </span>
+          </p>
+          <p class="t-hero__up order-md-3">Экспертный <br>подход <br>к решению психологических проблем</p>
+          <div class="q-title order-md-2">
+            <h1>Медицинская психология:</h1>
+          </div>
+          <p class="t-hero__text order-md-4">Медицинская психология — это область, которая занимается диагностикой, консультированием и коррекцией психологических проблем</p>
+          <div class="t-hero__btn d-flex order-md-5">
+            <a href="#" class="q-btn q-btn--midd q-btn--primary">Записаться на прием
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M8.4043 1.65436L14.7499 8.00001L8.4043 14.3457" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M14.7499 8L1.25 8" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Directions -->
+
+    <div class="t-directions">
+      <div class="container">
+        <div class="q-title q-title--small q-title--group">
+          <h2>Основные направления</h2>
+          <p>В центре  НКЦ «Карповка» ФМБЭ СЗО медицинские психологи решают три ключевые задачи:</p>
+        </div>
+        <div class="row">
+          <div class="col-12 col-md-6">
+            <div class="t-directions__item t-directions__item--big">
+              <span class="t-directions__title">Психологическая диагностика</span>
+              <div class="t-directions__more"><a href="#" class="q-open-modal-directions-1">Подробнее
+                <svg width="18" height="16" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M9.44922 0.949219L16.4999 7.99994L9.44922 15.0507" stroke="#E6DEF8" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M16.4999 8L1.5 8" stroke="#E6DEF8" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </a></div>
+              <i class="t-directions__img" style="background: url('img/t-directions-1.png') 100% 100%/auto no-repeat;"></i>
+            </div>
+          </div>
+          <div class="col-12 col-md-6">
+            <div class="t-directions__item t-directions__item--2">
+              <span class="t-directions__title">Психологическое консультирование</span>
+              <div class="t-directions__more"><a href="#" class="q-open-modal-directions-2">Подробнее
+                <svg width="18" height="16" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M9.44922 0.949219L16.4999 7.99994L9.44922 15.0507" stroke="#E6DEF8" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M16.4999 8L1.5 8" stroke="#E6DEF8" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </a></div>
+              <i class="t-directions__img" style="background: url('img/t-directions-2.png') 100% 100%/auto no-repeat;"></i>
+            </div>
+            <div class="t-directions__item t-directions__item--3">
+              <span class="t-directions__title">Психокоррекция (психотерапия)</span>
+              <div class="t-directions__more"><a href="#" class="q-open-modal-directions-3">Подробнее
+                <svg width="18" height="16" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M9.44922 0.949219L16.4999 7.99994L9.44922 15.0507" stroke="#E6DEF8" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M16.4999 8L1.5 8" stroke="#E6DEF8" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </a></div>
+              <i class="t-directions__img" style="background: url('img/t-directions-3.png') 100% 100%/auto no-repeat;"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Vantage -->
+
+    <div class="t-vantage">
+      <div class="container">
+        <div class="q-title q-title--small q-title--mb-small">
+          <h2>Почему стоит обратиться в НКЦ «Карповка» ФМБЭ СЗО</h2>
+        </div>
+        <div class="row">
+          <div class="col-12 col-md-6">
+            <div class="t-vantage__item">
+              <i class="t-vantage__img" style="background: url('img/t-vantage-1.png') center/contain no-repeat;"></i>
+              <span>Мы применяем современные методы диагностики и коррекции</span>
+            </div>
+          </div>
+          <div class="col-12 col-md-6">
+            <div class="t-vantage__item">
+              <i class="t-vantage__img" style="background: url('img/t-vantage-2.png') center/contain no-repeat;"></i>
+              <span>Мы используем индивидуальный подход к каждому клиенту</span>
+            </div>
+          </div>
+          <div class="col-12 col-md-6">
+            <div class="t-vantage__item">
+              <i class="t-vantage__img" style="background: url('img/t-vantage-3.png') center/contain no-repeat;"></i>
+              <span>Мы обладаем <br>высокой <br>квалификацией</span>
+            </div>
+          </div>
+        </div>
+        <i class="t-vantage__graphics" style="background: url('img/t-vantage-graphics.png') center/contain no-repeat;"></i>
+      </div>
+    </div>
+
+    <!-- Difference -->
+
+    <div class="t-difference">
+      <div class="container">
+        <div class="t-difference__box">
+          <div class="q-title q-title--small">
+            <h2>В чем отличия психолога <br>от психиатра <br>и психотерапевта?</h2>
+          </div>
+          <div class="t-difference__main">
+            <div class="t-difference__info">Главное отличие — в образовании и методах работы</div>
+            <div class="t-difference__img d-flex align-items-end
+             justify-content-center"><img src="img/t-difference-girl.png" alt="Img"></div>
+          </div>
+          <div class="t-difference__text">
+            <p>Медицинский психолог не является врачом, не ставит диагнозы и не назначает медикаменты</p>
+            <p>Однако его квалификация позволяет работать с людьми, испытывающими эмоциональные и психологические трудности</p>
+            <p>В НКЦ «Карповка» ФМБЭ СЗО медицинские психологи помогают пациентам справляться с жизненными кризисами, стрессами, тревогами и другими проблемами</p>
+          </div>
+          <div class="t-difference__btn d-flex">
+            <a href="#" class="q-btn q-btn--midd q-btn--primary">Хочу консультацию
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M8.4043 1.65436L14.7499 8.00001L8.4043 14.3457" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M14.7499 8L1.25 8" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Diseases -->
+
+    <div class="t-diseases">
+      <div class="container">
+        <div class="q-title q-title--small q-title--mb-small q-title--group">
+          <h2>Какие заболевания мы лечим</h2>
+          <p>В процессе лечения внимательное  определяем тип заболевания и со скурпулезным подходом решаем задачу</p>
+        </div>
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="t-diseases__item t-diseases__item--1">
+              <div class="t-diseases__head">
+                <i style="background: url('img/t-diseases-1.svg') center/contain no-repeat;"></i>
+                <span>Биполярное расстройство</span>
+              </div>
+              <p class="t-diseases__text">Амбулаторное лечение биполярного расстройства и выезд врача на дом, после обследования возможно направление на госпитализацию</p>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="t-diseases__item t-diseases__item--2">
+              <div class="t-diseases__head">
+                <i style="background: url('img/t-diseases-2.svg') center/contain no-repeat;"></i>
+                <span>Шизофрения</span>
+              </div>
+              <p class="t-diseases__text">Тяжелое заболевание нуждается в профессиональном лечении. Ранняя диагностика и лечение помогают достичь ремиссии и избежать инвалидности</p>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="t-diseases__item t-diseases__item--3">
+              <div class="t-diseases__head">
+                <i style="background: url('img/t-diseases-3.svg') center/contain no-repeat;"></i>
+                <span>Тревожное расстройство</span>
+              </div>
+              <p class="t-diseases__text">Лечение тревожного расстройства доступно амбулаторно, а также с возможностью выезда врача на дом и онлайн-консультаций</p>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="t-diseases__item t-diseases__item--4">
+              <div class="t-diseases__head">
+                <i style="background: url('img/t-diseases-4.svg') center/contain no-repeat;"></i>
+                <span>Депрессия</span>
+              </div>
+              <p class="t-diseases__text">Метод лечения зависит от тяжести депрессии: от психотерапии и медикаментов до госпитализации при тяжелых формах</p>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="t-diseases__item t-diseases__item--5">
+              <div class="t-diseases__head">
+                <i style="background: url('img/t-diseases-5.svg') center/contain no-repeat;"></i>
+                <span>Неврозы</span>
+              </div>
+              <p class="t-diseases__text">Рекомендуется сочетание индивидуальной психотерапии и групповых занятий. Выбор курса определяет лечащий специалист</p>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="t-diseases__item t-diseases__item--6">
+              <div class="t-diseases__head">
+                <i style="background: url('img/t-diseases-6.svg') center/contain no-repeat;"></i>
+                <span>Панические атаки</span>
+              </div>
+              <p class="t-diseases__text">Мы гарантируем комфорт и конфиденциальность, что способствует эффективному лечению панических атак</p>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="t-diseases__item t-diseases__item--7">
+              <div class="t-diseases__head">
+                <i style="background: url('img/t-diseases-7.svg') center/contain no-repeat;"></i>
+                <span>Фобии и страхи</span>
+              </div>
+              <p class="t-diseases__text">Лечение фобий проводится амбулаторно с возможностью выезда врача или онлайн-консультации</p>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="t-diseases__item t-diseases__item--8">
+              <div class="t-diseases__head">
+                <i style="background: url('img/t-diseases-8.svg') center/contain no-repeat;"></i>
+                <span>Пограничное расстройство личности</span>
+              </div>
+              <p class="t-diseases__text">Эмоциональная нестабильность и тревожность требуют своевременной помощи, чтобы избежать осложнений</p>
+            </div>
+          </div>
+        </div>
+        <div class="t-diseases__btn d-flex">
+          <a href="#" class="q-btn q-btn--midd q-btn--primary">Подобрать специалиста
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M8.4043 1.65436L14.7499 8.00001L8.4043 14.3457" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M14.7499 8L1.25 8" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Psych -->
+
+    <div class="t-psych">
+      <div class="container">
+        <div class="q-title q-title--small q-title--mb-small q-title--group">
+          <h2>Наши психологи</h2>
+          <p>У нас в штате работают только практикующие психологи, имеющие немалый опыт</p>
+        </div>
+        <div class="swiper q-swiper-dots t-psych__sl">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide t-psych__item">
+              <div class="t-psych__img"><img src="img/t-psych-1.png" alt="Img"></div>
+              <p class="t-psych__name">Михаил <br>Валерьевич <br>Ленцман</p>
+              <div class="t-psych__type">
+                <p>Врач-психотерапевт</p>
+                <p>Психолог-психоаналитик</p>
+              </div>
+              <p class="t-psych__experience">Опыт 36 лет</p>
+              <div class="t-psych__btn">
+                <a href="#" class="q-btn q-btn--small q-btn--second">Выбрать</a>
+              </div>
+            </div>
+            <div class="swiper-slide t-psych__item">
+              <div class="t-psych__img"><img src="img/t-psych-2.png" alt="Img"></div>
+              <p class="t-psych__name">Даниэль <br>Рафаэлевич <br>Гареев</p>
+              <div class="t-psych__type">
+                <p>Клинический психолог</p>
+                <p>Экзистенциальный психотерапевт</p>
+              </div>
+              <p class="t-psych__experience">Опыт 14 лет</p>
+              <div class="t-psych__btn">
+                <a href="#" class="q-btn q-btn--small q-btn--second">Выбрать</a>
+              </div>
+            </div>
+            <div class="swiper-slide t-psych__item">
+              <div class="t-psych__img"><img src="img/t-psych-3.png" alt="Img"></div>
+              <p class="t-psych__name">София <br>Андреева <br>Авхимович</p>
+              <div class="t-psych__type">
+                <p>Врач-психотерапевт</p>
+                <p>Подростковый психолог</p>
+              </div>
+              <p class="t-psych__experience">Опыт 7 лет</p>
+              <div class="t-psych__btn">
+                <a href="#" class="q-btn q-btn--small q-btn--second">Выбрать</a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+        <div class="t-diseases__more d-flex">
+          <a href="#" class="q-btn q-btn--midd q-btn--primary">Все  специалисты
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M8.4043 1.65436L14.7499 8.00001L8.4043 14.3457" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M14.7499 8L1.25 8" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Record -->
+
+    <div class="t-record">
+      <div class="container">
+        <div class="t-record__box">
+          <div class="q-title q-title--small">
+            <h2>Запишитесь <br>на консультацию прямо сейчас</h2>
+          </div>
+          <div class="t-record__img d-flex">
+            <img src="img/t-record.png" alt="Img" class="d-none d-lg-block">
+            <img src="img/t-record-mb.png" alt="Img" class="d-lg-none">
+          </div>
+          <p class="t-record__text">Если вам нужна профессиональная помощь, запишитесь на консультацию — наши специалисты помогут вам вернуть психологический комфорт и эмоциональное равновесие</p>
+          <form action="#" class="q-form q-record__form">
+            <label class="q-check">
+              <input type="checkbox" checked="">
+              <span class="q-check__mark"></span>
+              <span class="q-check__text">Даю согласие на обработку моих личных данных</span>
+            </label>
+            <div class="q-record__group">
+              <a href="#" class="q-record__tel">
+                <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M16.1757 11.4188C15.8423 11.2425 13.642 10.2254 13.3086 10.0491C12.9752 9.87276 12.6285 9.87276 12.2951 10.2254C11.9618 10.5644 11.2817 11.5951 10.9483 11.9341C10.7749 12.2731 10.4415 12.2731 10.1082 12.1104C8.92131 11.5951 7.74781 10.917 6.73432 10.0626C5.8942 9.20824 5.04074 8.19113 4.37398 7.16046C4.20062 6.82142 4.37398 6.48239 4.54734 6.30609C4.72069 6.12979 4.88072 5.79075 5.22743 5.62801C5.40079 5.45171 5.56082 5.11268 5.56082 4.94994C5.73417 4.77364 5.73417 4.4346 5.56082 4.27187C5.38746 4.09557 4.54734 2.04778 4.21395 1.19341C4.04059 -4.84996e-07 3.70721 0 3.37383 0C3.20047 0 2.86709 0 2.53371 0C2.20033 0 1.69358 0.339036 1.52022 0.515336C0.50674 1.54601 0 2.73942 0 4.09557C0.173359 5.62801 0.680101 7.17402 1.69358 8.54373C3.54719 11.2831 5.92087 13.4937 8.78796 14.8634C9.62808 15.2024 10.3082 15.5415 11.1483 15.7178C11.9884 16.0568 12.8419 16.0568 13.8554 15.8941C15.0422 15.7178 16.0557 14.8634 16.7225 13.8463C17.0558 13.1682 17.0558 12.4766 16.8958 11.7985C16.8958 11.7985 16.5624 11.6222 16.2157 11.4594L16.1757 11.4188Z" fill="white"></path>
+                </svg>
+              </a>
+              <label class="q-form__field"><input type="text" class="phone-mask" placeholder="+7 ___________________"></label>
+              <button class="q-btn q-btn--primary">Отправить</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+
+    <div class="q-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-xl-3">
+            <div class="q-footer__inner">
+              <a href="#" class="q-footer__logo d-flex"><img src="img/q-logo.svg" alt="Logo"></a>
+              <div class="q-social d-none d-md-flex">
+                <a href="#" class="q-social__item" style="background: url('img/q-wt-big.svg') center/contain no-repeat;"></a>
+                <a href="#" class="q-social__item" style="background: url('img/q-tg-big.svg') center/contain no-repeat;"></a>
+                <a href="#" class="q-social__item" style="background: url('img/q-vk-big.svg') center/contain no-repeat;"></a>
+              </div>
+              <p class="q-footer__attention">Обращаем ваше внимание на то,  что данный интернет-сайт носит исключительно информационный  характер и ни при каких условиях не является публичной офертой, определяемой положениями <br>Статьи 437 Гражданского кодекса Российской Федерации.</p>
+            </div>
+          </div>
+          <div class="col-12 col-lg-7 col-lg-7 col-xl-6">
+            <div class="q-footer__navs d-md-flex justify-content-between">
+              <div class="q-footer__nav">
+                <p class="q-footer__title d-flex"><span>Навигация</span></p>
+                <ul class="q-footer__list">
+                  <li><a href="#">Главная</a></li>
+                  <li><a href="#">О центре</a></li>
+                  <li><a href="#">Прайс-лист</a></li>
+                  <li><a href="#">Контакты</a></li>
+                </ul>
+              </div>
+              <div class="q-footer__nav">
+                <p class="q-footer__title d-flex"><span>Отделения</span></p>
+                <div class="q-footer__navGroup d-md-flex justify-content-between">
+                  <ul class="q-footer__list">
+                    <li><a href="#">Психология</a></li>
+                    <li><a href="#">Детское отделение</a></li>
+                    <li><a href="#">Судебные и внесудебные экспертизы</a></li>
+                    <li><a href="#">Психотерапия</a></li>
+                  </ul>
+                  <ul class="q-footer__list">
+                    <li><a href="#">Психиатрия</a></li>
+                    <li><a href="#">Специалисты</a></li>
+                    <li><a href="#">Соматическое и Психосоматическое отделение</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-5 col-lg-5 col-xl-3">
+            <div class="q-footer__cont">
+              <div class="q-footer__tel"><a href="tel:89200399494">8 920 039 94 94</a> СПБ</div>
+              <div class="q-footer__bell"><a href="#">Звонок бесплатный</a></div>
+              <div class="q-footer__address">г. Санкт-Петербург, наб. Мартынова, 4</div>
+              <div class="q-footer__info">Ежедневно с 9 до 21</div>
+            </div>
+          </div>
+        </div>
+        <div class="q-footer__bott">
+          <div class="row align-items-end justify-content-between">
+            <div class="col-lg-5 col-xl-3">
+              <p>&copy; 2023, ООО "ЦП Карповка Плюс".</p>
+              <p>Лицензия № Л041-01148-78/00356833</p>
+            </div>
+            <div class="col-lg-4 col-xl-3">
+              <p><a href="#">Пользовательское соглашение</a></p>
+              <p><a href="#">Политика конфиденциальности</a></p>
+            </div>
+            <div class="col-lg-3 col-xl-2">
+              <p><a href="mailto:center@karpovka.org" class="q-footer__email">center@karpovka.org</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+
+  <!-- Modal -->
+
+  <div class="q-modal q-modal--directions q-modal--directions--1">
+    <div class="q-modal__fullScreen">
+      <div class="q-modal__box">
+        <span class="q-modal__close">
+          <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50"><path d="M 9.15625 6.3125 L 6.3125 9.15625 L 22.15625 25 L 6.21875 40.96875 L 9.03125 43.78125 L 25 27.84375 L 40.9375 43.78125 L 43.78125 40.9375 L 27.84375 25 L 43.6875 9.15625 L 40.84375 6.3125 L 25 22.15625 Z"/></svg>
+        </span>
+        <div class="q-modal__inner">
+          <div class="q-title">
+            <h2>Психологическая диагностика</h2>
+          </div>
+          <div class="q-modal__data">
+            <div class="q-modal__dataRow">
+              <p>Психологическая диагностика (экспериментально-психологическое исследование, ЭПИ) позволяет определить текущее состояние психики пациента, выявить его индивидуальные особенности и дать рекомендации по коррекции.</p>
+            </div>
+            <div class="q-modal__dataRow">
+              <p>Как проходит диагностика:</p>
+              <ul>
+                <li>Первичная беседа, где специалист уточняет жалобы пациента.</li>
+                <li>Проведение тестирования с использованием различных методик.</li>
+                <li>Анализ и интерпретация результатов.</li>
+              </ul>
+            </div>
+            <div class="q-modal__dataRow">
+              <p>ЭПИ помогает уточнить, является ли проблема пациента чисто психологической или имеет физиологические причины. Врач может направить пациента на диагностику, если сомневается в диагнозе.</p>
+            </div>
+          </div>
+        </div>
+        <i class="q-modal__img" style="background: url('img/q-modal-directions-1.png') center/contain no-repeat;"></i>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal -->
+
+  <div class="q-modal q-modal--directions q-modal--directions--2">
+    <div class="q-modal__fullScreen">
+      <div class="q-modal__box">
+        <span class="q-modal__close">
+          <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50"><path d="M 9.15625 6.3125 L 6.3125 9.15625 L 22.15625 25 L 6.21875 40.96875 L 9.03125 43.78125 L 25 27.84375 L 40.9375 43.78125 L 43.78125 40.9375 L 27.84375 25 L 43.6875 9.15625 L 40.84375 6.3125 L 25 22.15625 Z"/></svg>
+        </span>
+        <div class="q-modal__inner">
+          <div class="q-title">
+            <h2>Психологическое консультирование</h2>
+          </div>
+          <div class="q-modal__data">
+            <div class="q-modal__dataRow">
+              <p>Консультирование проводится в формате беседы, в ходе которой специалист помогает человеку осознать и проанализировать свою проблему. Психолог может предложить пути ее решения, дать рекомендации или направить пациента на психокоррекцию.</p>
+            </div>
+            <div class="q-modal__dataRow">
+              <p>Консультирование может проходить:</p>
+              <ul>
+                <li>Индивидуально.</li>
+                <li>В формате семейных консультаций.</li>
+                <li>Для пар или родителей с детьми.</li>
+              </ul>
+            </div>
+            <div class="q-modal__dataRow">
+              <p>В ходе беседы специалист помогает клиенту найти причины проблем и определить дальнейшую тактику работы.</p>
+            </div>
+          </div>
+        </div>
+        <i class="q-modal__img" style="background: url('img/q-modal-directions-2.png') 0 100%/contain no-repeat;"></i>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal -->
+
+  <div class="q-modal q-modal--directions q-modal--directions--3">
+    <div class="q-modal__fullScreen">
+      <div class="q-modal__box">
+        <span class="q-modal__close">
+          <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50"><path d="M 9.15625 6.3125 L 6.3125 9.15625 L 22.15625 25 L 6.21875 40.96875 L 9.03125 43.78125 L 25 27.84375 L 40.9375 43.78125 L 43.78125 40.9375 L 27.84375 25 L 43.6875 9.15625 L 40.84375 6.3125 L 25 22.15625 Z"/></svg>
+        </span>
+        <div class="q-modal__inner">
+          <div class="q-title">
+            <h2>Психологическая диагностика</h2>
+          </div>
+          <div class="q-modal__data">
+            <div class="q-modal__dataRow">
+              <p>Психологическая диагностика (экспериментально-психологическое исследование, ЭПИ) позволяет определить текущее состояние психики пациента, выявить его индивидуальные особенности и дать рекомендации по коррекции.</p>
+            </div>
+            <div class="q-modal__dataRow">
+              <p>Как проходит диагностика:</p>
+              <ul>
+                <li>Первичная беседа, где специалист уточняет жалобы пациента.</li>
+                <li>Проведение тестирования с использованием различных методик.</li>
+                <li>Анализ и интерпретация результатов.</li>
+              </ul>
+            </div>
+            <div class="q-modal__dataRow">
+              <p>ЭПИ помогает уточнить, является ли проблема пациента чисто психологической или имеет физиологические причины. Врач может направить пациента на диагностику, если сомневается в диагнозе.</p>
+            </div>
+          </div>
+        </div>
+        <i class="q-modal__img" style="background: url('img/q-modal-directions-3.png') center/contain no-repeat;"></i>
+      </div>
+    </div>
+  </div>
+
+  
+
+
+
+
+
+ 
+  <div class="offcanvas-overlay"></div>
+  <button class="sp-scroll-up" aria-label="Scroll Up" style="display: none;"><span class="fas fa-angle-up" aria-hidden="true"></span></button>
+  <!-- <footer>
+    <div class="footer">
+      <div class="container">
+        <div class="footer-inner">
+          <div class="footer-top">
+            <div class="footer-col">
+              <div class="text_oferta">
+                <p>Обращаем ваше внимание на то, что данный интернет-сайт носит исключительно информационный характер и ни при каких условиях не является публичной офертой, определяемой положениями Статьи 437 Гражданского кодекса Российской Федерации.</p>
+              </div>
+              <ul class="app-footer__privacy-policy-links">
+                <li>
+                  <a href="https://karpovka.org/polzovatelskoe-soglashenie">Пользовательское соглашение</a>
+                </li>
+                <li>
+                  <a href="https://karpovka.org/politika-konfidencialnosti">Политика конфиденциальности</a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer-col d-flex">
+              <div class="menu-bottom">
+                <div class="menu-bottom__item">
+                  <nav class="">
+                    <h2 class="menu-bottom__item-title">Навигация</h2>
+                    <ul id="menu-footer-navi" class="menu menu-bottom__item-body">
+                      <li id="menu-item-822" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-5 current_page_item menu-item-822"><a href="https://karpovka.org/" aria-current="page">Главная</a></li>
+                      <li id="menu-item-823" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-823"><a href="https://karpovka.org/klinika/">О центре</a></li>
+                      <li id="menu-item-824" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-824"><a href="https://karpovka.org/ceny/">Прайс-лист</a></li>
+                      <li id="menu-item-1311" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1311"><a href="https://karpovka.org/blog/">Блог врачей</a></li>
+                      <li id="menu-item-825" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-825"><a href="https://karpovka.org/kontakty/">Контакты</a></li>
+                    </ul>
+                  </nav>
+                </div>
+                <div class="menu-bottom__item menu-bottom__item--column">
+                  <nav class="">
+                    <h2 class="menu-bottom__item-title">Отделения</h2>
+                    <ul id="menu-footer-branch" class="menu menu-bottom__item-body">
+                      <li id="menu-item-819" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-819"><a href="https://karpovka.org/psihologiya/">Психология</a></li>
+                      <li id="menu-item-816" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-816"><a href="https://karpovka.org/psihiatriya/">Психиатрия</a></li>
+                      <li id="menu-item-820" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-820"><a href="https://karpovka.org/detskoe-otdelenie/">Детское отделение</a></li>
+                      <li id="menu-item-821" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-821"><a href="https://karpovka.org/spetsialisty/">Специалисты</a></li>
+                      <li id="menu-item-815" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-815"><a href="https://karpovka.org/sudebnye-i-vnesudebnye-ekspertizy/">Судебные и внесудебные экспертизы</a></li>
+                      <li id="menu-item-817" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-817"><a href="https://karpovka.org/somaticheskoe-i-psihosomaticheskoe-otdelenie/">Соматическое и Психосоматическое отделение</a></li>
+                      <li id="menu-item-818" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-818"><a href="https://karpovka.org/psihoterapiya/">Психотерапия</a></li>
+                    </ul>
+                  </nav>
+                </div>
+              </div>
+            </div>
+            <div class="footer-col">
+              <div class="app-footer__phone">
+                <div class="app-footer__phone-item">
+                  <a href="tel:8(800)700-34-83" title="СПБ">8 (800) 700-34-83</a> </div>
+              </div>
+              <div class="footer-text-block">
+                <p class="cont_text">г. Санкт-Петербург, наб. Мартынова, 4</p>
+                <p class="cont-workTime">Ежедневно с 9:00 до 21:00</p>
+                <div class="cont_text mt30">
+                  <a href="mailto:center@karpovka.org">center@karpovka.org</a>
+                </div>
+              </div>
+              <div class="footerSocial">
+                <ul class="d-flex social__list p-0">
+                  <li class=" social__list_item">
+                    <a href="https://wa.me/79633057010" target="blank" rel="nofollow" class="social__list_item-wa"><span></span></a>
+                  </li>
+                  <li class=" social__list_item">
+                    <a href="https://t.me/karpovkaplus" target="blank" rel="nofollow" class="social__list_item-tg"><span></span></a>
+                  </li>
+                  <li class=" social__list_item">
+                    <a href="https://vk.com/karpovka" target="blank" rel="nofollow" class="social__list_item-vk"><span></span></a>
+                  </li>
+                </ul>
+              </div>
+
+            </div>
+          </div>
+          <div class="footer-medium">
+            <h2 class="footer-medium-title">
+            Официальные интернет-порталы государственных учреждений Российской Федерации          </h2>
+            <div class="footer-medium-wrap">
+              <div class="footer-medium-wrap-item">
+                <a href="https://minzdrav.gov.ru/" target="_blank" rel="nofollow"></a>
+                <div>
+                  <h3>Министерства здравоохранения Российской Федерации</h3>
+                </div>
+              </div>
+              <div class="footer-medium-wrap-item">
+                <a href="http://pravo.gov.ru/" target="_blank" rel="nofollow"></a>
+                <div>
+                  <h3>Государственная система правовой информации</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="footer-bottom">
+            <div class="footer-text-block">
+              <span>© 2024, ООО «НКЦ КАРПОВКА ФМБЭ СЗО»</span>
+              <a href="https://karpovka.org/wp-content/uploads/2024/11/Licenziya_karpovka-1.pdf" target="_blank">
+                  Лицензия № Л041-01148-78/00356833               </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer> -->
+  <!-- Bootstrap POPUP -->
+  <article class="modal fade" id="popupForm" tabindex="-1" aria-labelledby="popupFormLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="popupFormLabel">Онлайн-запись на консультацию</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+
+          <div class="wpcf7 js" id="wpcf7-f592-o4" lang="ru-RU" dir="ltr" data-wpcf7-id="592">
+            <div class="screen-reader-response">
+              <p role="status" aria-live="polite" aria-atomic="true"></p>
+              <ul></ul>
+            </div>
+            <form action="https://karpovka.org/#wpcf7-f592-o4" method="post" class="wpcf7-form init" aria-label="Контактная форма" novalidate="novalidate" data-status="init">
+              <div style="display: none;">
+                <input type="hidden" name="_wpcf7" value="592">
+                <input type="hidden" name="_wpcf7_version" value="6.0.1">
+                <input type="hidden" name="_wpcf7_locale" value="ru_RU">
+                <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f592-o4">
+                <input type="hidden" name="_wpcf7_container_post" value="0">
+                <input type="hidden" name="_wpcf7_posted_data_hash" value="">
+              </div>
+              <div class="form">
+                <div class="required"><span class="wpcf7-form-control-wrap" data-name="your-name"><input size="40" maxlength="400" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Ваше имя" value="" type="text" name="your-name"></span></div>
+                <div class="required"><span class="wpcf7-form-control-wrap" data-name="tel-118"><input size="40" maxlength="400" class="wpcf7-form-control wpcf7-tel wpcf7-validates-as-required wpcf7-text wpcf7-validates-as-tel" aria-required="true" aria-invalid="false" placeholder="Ваш телефон" value="" type="tel" name="tel-118"></span></div>
+                <input class="wpcf7-form-control wpcf7-hidden" value="" type="hidden" name="servicename">
+                <input class="wpcf7-form-control wpcf7-submit has-spinner" type="submit" value="Отправить"><span class="wpcf7-spinner"></span>
+                <p class="font-size--xs tac"><span class="accept_policy font-size--xs">Нажимая кнопку, Вы разрешаете обработку персональных данных и соглашаешься с политикой конфиденциальности.</span></p>
+              </div>
+              <div class="wpcf7-response-output" aria-hidden="true"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <!-- JS -->
+  <script type="text/javascript" src="./Научно-Клинический Центр Карповка_files/hooks.min.js.Без названия" id="wp-hooks-js"></script>
+  <script type="text/javascript" src="./Научно-Клинический Центр Карповка_files/i18n.min.js.Без названия" id="wp-i18n-js"></script>
+  <script type="text/javascript" id="wp-i18n-js-after">
+    /* <![CDATA[ */
+    wp.i18n.setLocaleData({
+      'text direction\u0004ltr': ['ltr']
+    });
+    /* ]]> */
+  </script>
+  <script data-minify="1" type="text/javascript" src="./Научно-Клинический Центр Карповка_files/index-138f8dfd8ad85a733bf3467b98c18fbe.js.Без названия" id="swv-js"></script>
+  <script type="text/javascript" id="contact-form-7-js-before">
+    /* <![CDATA[ */
+    var wpcf7 = {
+      "api": {
+        "root": "https:\/\/karpovka.org\/wp-json\/",
+        "namespace": "contact-form-7\/v1"
+      },
+      "cached": 1
+    };
+    /* ]]> */
+  </script>
+  <script data-minify="1" type="text/javascript" src="./Научно-Клинический Центр Карповка_files/index-e59867b622b0a3674b1b569abf8ed937.js.Без названия" id="contact-form-7-js"></script>
+  <script type="text/javascript" id="rocket-browser-checker-js-after">
+    /* <![CDATA[ */
+    "use strict";
+    var _createClass = function() {
+      function defineProperties(target, props) {
+        for (var i = 0; i < props.length; i++) {
+          var descriptor = props[i];
+          descriptor.enumerable = descriptor.enumerable || !1, descriptor.configurable = !0, "value" in descriptor && (descriptor.writable = !0), Object.defineProperty(target, descriptor.key, descriptor)
+        }
+      }
+      return function(Constructor, protoProps, staticProps) {
+        return protoProps && defineProperties(Constructor.prototype, protoProps), staticProps && defineProperties(Constructor, staticProps), Constructor
+      }
+    }();
+
+    function _classCallCheck(instance, Constructor) {
+      if (!(instance instanceof Constructor)) throw new TypeError("Cannot call a class as a function")
+    }
+    var RocketBrowserCompatibilityChecker = function() {
+      function RocketBrowserCompatibilityChecker(options) {
+        _classCallCheck(this, RocketBrowserCompatibilityChecker), this.passiveSupported = !1, this._checkPassiveOption(this), this.options = !!this.passiveSupported && options
+      }
+      return _createClass(RocketBrowserCompatibilityChecker, [{
+        key: "_checkPassiveOption",
+        value: function(self) {
+          try {
+            var options = {get passive() {
+                return !(self.passiveSupported = !0)
+              }
+            };
+            window.addEventListener("test", null, options), window.removeEventListener("test", null, options)
+          } catch (err) {
+            self.passiveSupported = !1
+          }
+        }
+      }, {
+        key: "initRequestIdleCallback",
+        value: function() {
+          !1 in window && (window.requestIdleCallback = function(cb) {
+            var start = Date.now();
+            return setTimeout(function() {
+              cb({
+                didTimeout: !1,
+                timeRemaining: function() {
+                  return Math.max(0, 50 - (Date.now() - start))
+                }
+              })
+            }, 1)
+          }), !1 in window && (window.cancelIdleCallback = function(id) {
+            return clearTimeout(id)
+          })
+        }
+      }, {
+        key: "isDataSaverModeOn",
+        value: function() {
+          return "connection" in navigator && !0 === navigator.connection.saveData
+        }
+      }, {
+        key: "supportsLinkPrefetch",
+        value: function() {
+          var elem = document.createElement("link");
+          return elem.relList && elem.relList.supports && elem.relList.supports("prefetch") && window.IntersectionObserver && "isIntersecting" in IntersectionObserverEntry.prototype
+        }
+      }, {
+        key: "isSlowConnection",
+        value: function() {
+          return "connection" in navigator && "effectiveType" in navigator.connection && ("2g" === navigator.connection.effectiveType || "slow-2g" === navigator.connection.effectiveType)
+        }
+      }]), RocketBrowserCompatibilityChecker
+    }();
+    /* ]]> */
+  </script>
+  <script type="text/javascript" id="rocket-delay-js-js-after">
+    /* <![CDATA[ */
+    (function() {
+      "use strict";
+      var e = function() {
+        function n(e, t) {
+          for (var r = 0; r < t.length; r++) {
+            var n = t[r];
+            n.enumerable = n.enumerable || !1, n.configurable = !0, "value" in n && (n.writable = !0), Object.defineProperty(e, n.key, n)
+          }
+        }
+        return function(e, t, r) {
+          return t && n(e.prototype, t), r && n(e, r), e
+        }
+      }();
+
+      function n(e, t) {
+        if (!(e instanceof t)) throw new TypeError("Cannot call a class as a function")
+      }
+      var t = function() {
+        function r(e, t) {
+          n(this, r), this.attrName = "data-rocketlazyloadscript", this.browser = t, this.options = this.browser.options, this.triggerEvents = e, this.userEventListener = this.triggerListener.bind(this)
+        }
+        return e(r, [{
+          key: "init",
+          value: function() {
+            this._addEventListener(this)
+          }
+        }, {
+          key: "reset",
+          value: function() {
+            this._removeEventListener(this)
+          }
+        }, {
+          key: "_addEventListener",
+          value: function(t) {
+            this.triggerEvents.forEach(function(e) {
+              return window.addEventListener(e, t.userEventListener, t.options)
+            })
+          }
+        }, {
+          key: "_removeEventListener",
+          value: function(t) {
+            this.triggerEvents.forEach(function(e) {
+              return window.removeEventListener(e, t.userEventListener, t.options)
+            })
+          }
+        }, {
+          key: "_loadScriptSrc",
+          value: function() {
+            var r = this,
+              e = document.querySelectorAll("script[" + this.attrName + "]");
+            0 !== e.length && Array.prototype.slice.call(e).forEach(function(e) {
+              var t = e.getAttribute(r.attrName);
+              e.setAttribute("src", t), e.removeAttribute(r.attrName)
+            }), this.reset()
+          }
+        }, {
+          key: "triggerListener",
+          value: function() {
+            this._loadScriptSrc(), this._removeEventListener(this)
+          }
+        }], [{
+          key: "run",
+          value: function() {
+            RocketBrowserCompatibilityChecker && new r(["keydown", "mouseover", "touchmove", "touchstart"], new RocketBrowserCompatibilityChecker({
+              passive: !0
+            })).init()
+          }
+        }]), r
+      }();
+      t.run();
+    }());
+    /* ]]> */
+  </script>
+  <script type="text/javascript" src="./Научно-Клинический Центр Карповка_files/bootstrap.bundle.min.js.Без названия" id="script-bootstrap-js"></script>
+  <script data-minify="1" type="text/javascript" src="./Научно-Клинический Центр Карповка_files/fancybox.umd-04963c1fa884df138271cea9b73b3a19.js.Без названия" id="script-fancybox-js"></script>
+  <script type="text/javascript" src="./Научно-Клинический Центр Карповка_files/swiper-bundle.min.js.Без названия" id="script-swiper-js"></script>
+  <script type="text/javascript" src="./Научно-Клинический Центр Карповка_files/wow.min.js.Без названия" id="script-wow-js"></script>
+  <script type="text/javascript" src="./Научно-Клинический Центр Карповка_files/jquery-ui.min.js.Без" id="script-jquery-js"></script>
+  <script type="text/javascript" id="script-main-js-extra">
+    /* <![CDATA[ */
+    var wpAjax = {
+      "ajaxUrl": "https:\/\/karpovka.org\/wp-admin\/admin-ajax.php",
+      "query_vars": "[]"
+    };
+    /* ]]> */
+  </script>
+  <script data-minify="1" type="text/javascript" src="./Научно-Клинический Центр Карповка_files/main-bf195a0465b47fe6ff0e7f95860c2417.js.Без названия" id="script-main-js"></script>
+  <script>
+    window.lazyLoadOptions = {
+      elements_selector: "img[data-lazy-src],.rocket-lazyload,iframe[data-lazy-src]",
+      data_src: "lazy-src",
+      data_srcset: "lazy-srcset",
+      data_sizes: "lazy-sizes",
+      class_loading: "lazyloading",
+      class_loaded: "lazyloaded",
+      threshold: 300,
+      callback_loaded: function(element) {
+        if (element.tagName === "IFRAME" && element.dataset.rocketLazyload == "fitvidscompatible") {
+          if (element.classList.contains("lazyloaded")) {
+            if (typeof window.jQuery != "undefined") {
+              if (jQuery.fn.fitVids) {
+                jQuery(element).parent().fitVids()
+              }
+            }
+          }
+        }
+      }
+    };
+    window.addEventListener('LazyLoad::Initialized', function(e) {
+      var lazyLoadInstance = e.detail.instance;
+      if (window.MutationObserver) {
+        var observer = new MutationObserver(function(mutations) {
+          var image_count = 0;
+          var iframe_count = 0;
+          var rocketlazy_count = 0;
+          mutations.forEach(function(mutation) {
+            for (i = 0; i < mutation.addedNodes.length; i++) {
+              if (typeof mutation.addedNodes[i].getElementsByTagName !== 'function') {
+                continue
+              }
+              if (typeof mutation.addedNodes[i].getElementsByClassName !== 'function') {
+                continue
+              }
+              images = mutation.addedNodes[i].getElementsByTagName('img');
+              is_image = mutation.addedNodes[i].tagName == "IMG";
+              iframes = mutation.addedNodes[i].getElementsByTagName('iframe');
+              is_iframe = mutation.addedNodes[i].tagName == "IFRAME";
+              rocket_lazy = mutation.addedNodes[i].getElementsByClassName('rocket-lazyload');
+              image_count += images.length;
+              iframe_count += iframes.length;
+              rocketlazy_count += rocket_lazy.length;
+              if (is_image) {
+                image_count += 1
+              }
+              if (is_iframe) {
+                iframe_count += 1
+              }
+            }
+          });
+          if (image_count > 0 || iframe_count > 0 || rocketlazy_count > 0) {
+            lazyLoadInstance.update()
+          }
+        });
+        var b = document.getElementsByTagName("body")[0];
+        var config = {
+          childList: !0,
+          subtree: !0
+        };
+        observer.observe(b, config)
+      }
+    }, !1)
+  </script>
+  <script data-no-minify="1" async="" src="./Научно-Клинический Центр Карповка_files/lazyload.min.js.Без названия"></script>
+  <!-- Top.Mail.Ru counter -->
+  <script type="text/javascript">
+    var _tmr = window._tmr || (window._tmr = []);
+    _tmr.push({
+      id: "3517087",
+      type: "pageView",
+      start: (new Date()).getTime(),
+      pid: "USER_ID"
+    });
+    (function(d, w, id) {
+      if (d.getElementById(id)) return;
+      var ts = d.createElement("script");
+      ts.type = "text/javascript";
+      ts.async = true;
+      ts.id = id;
+      ts.src = "https://top-fwz1.mail.ru/js/code.js";
+      var f = function() {
+        var s = d.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(ts, s);
+      };
+      if (w.opera == "[object Opera]") {
+        d.addEventListener("DOMContentLoaded", f, false);
+      } else {
+        f();
+      }
+    })(document, window, "tmr-code");
+  </script>
+  <noscript>
+    <div><img src="https://top-fwz1.mail.ru/counter?id=3517087;js=na" style="position:absolute;left:-9999px;" alt="Top.Mail.Ru" /></div>
+  </noscript>
+  <!-- /Top.Mail.Ru counter -->
+
+  <!-- Roistat Counter Start -->
+  <script>
+    (function(w, d, s, h, id) {
+      w.roistatProjectId = id;
+      w.roistatHost = h;
+      var p = d.location.protocol == "https:" ? "https://" : "http://";
+      var u = /^.*roistat_visit=[^;]+(.*)?$/.test(d.cookie) ? "/dist/module.js" : "/api/site/1.0/" + id + "/init?referrer=" + encodeURIComponent(d.location.href);
+      var js = d.createElement(s);
+      js.charset = "UTF-8";
+      js.async = 1;
+      js.src = p + h + u;
+      var js2 = d.getElementsByTagName(s)[0];
+      js2.parentNode.insertBefore(js, js2);
+    })(window, document, 'script', 'cloud.roistat.com', 'e9871941c466e4e2fa6d6690c2fc6dd4');
+  </script>
+  <!-- Roistat Counter End -->
+
+  <div class="arnica-layer arnica-layer-hide" style="z-index: 999991"></div>
+  <div class="arnica-widget-wrapper arnica-widget-wrapper-hide arnica-widget-wrapper-center" style="display:none; z-index: 999992">
+    <div id="arnica-preloader">
+      <div id="arnica-loader"></div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+  <script
+  src="https://code.jquery.com/jquery-3.7.1.min.js"
+  integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+  crossorigin="anonymous"></script>
+
+
+
+  <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU"></script>
+
+
+
+  <script src="libs/maskedinput/jquery.maskedinput.min.js"></script>
+
+  <script src="new.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
